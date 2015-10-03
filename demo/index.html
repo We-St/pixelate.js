@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body ng-app="app">
+    <div pixelate>
+        <img id="test-img" src="img/peaches_adjusted.jpg">
+
+        <table>
+            <tr ng-repeat="row in rows" ng-style="rowStyle">
+                <td ng-repeat="col in columns" ng-style="pixelData[col][row]">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../src/pixelateDirective.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

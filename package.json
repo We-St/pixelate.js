@@ -1,0 +1,39 @@
+{
+  "name": "pixelate.js",
+  "version": "1.0.0",
+  "description": "A small JavaScript library to pixelate images",
+  "main": "index.js",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-text-replace": "~0.3.12",
+    "grunt-git": "~0.2.14",
+    "grunt-serve": "^0.1.6",
+    "jshint-stylish": "^1.0.0",
+    "load-grunt-tasks": "^3.1.0"
+  },
+  "scripts": {
+    //"test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/We-St/pixelate.js.git"
+  },
+  "keywords": [
+    "Pixelate",
+    "JavaScript",
+    "AngularJS",
+    "DigitalArt"
+  ],
+  "author": "Stefan Weghofer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/We-St/pixelate.js/issues"
+  },
+  "homepage": "https://github.com/We-St/pixelate.js#readme"
+}

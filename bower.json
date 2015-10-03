@@ -1,0 +1,20 @@
+{
+  "author": "Stefan Weghofer",
+  "name": "pixelate",
+  "description": "A small JavaScript library to pixelate images",
+  "version": "0.0.1",
+  "homepage": "https://github.com/We-St/pixelate.js#readme",
+  "ignore": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/We-St/pixelate.js.git"
+  },
+  "main": "./dist/pixelate.min.js",
+  "devDependencies": {
+    "angular": "~1.4.6"
+  },
+  "resolutions": {
+    "angular": "~1.4.6"
+  },
+  "license": "MIT"
+}
